@@ -17,10 +17,12 @@ Initialize a repo
 Go to the directory
 git init
 git remote add origin https://github.com/rahulguwalani/git-made-easy
+git pull --rebase origin main    
 git add gitbasic.txt
 or
 git add .
 git status
 git commit -m "initial commit"
 git status
-git push
+git push --set-upstream origin main
+   
