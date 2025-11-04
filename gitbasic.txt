@@ -1,0 +1,13 @@
+Instalation:
+https://git-scm.com/install/
+
+git version
+
+Global Config:
+git config --global --list
+git config --global user.name "Rahul Guwalani"
+git config --global user.email "guwalani.rahul@gmail.com"
+git config --global init.defaultBranch main
+git config --global --list
+git config --global --unset user.name
+git conifg --global user.name
