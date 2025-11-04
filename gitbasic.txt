@@ -11,3 +11,16 @@ git config --global init.defaultBranch main
 git config --global --list
 git config --global --unset user.name
 git conifg --global user.name
+
+Initialize a repo
+
+Go to the directory
+git init
+git remote add origin https://github.com/rahulguwalani/git-made-easy
+git add gitbasic.txt
+or
+git add .
+git status
+git commit -m "initial commit"
+git status
+git push
